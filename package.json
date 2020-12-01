@@ -1,8 +1,16 @@
 {
   "name": "tsswebsite",
   "version": "1.0.0",
-  "description": "The Scholarly Sewist",
+  "description": "This is a website for The Scholarly Sewist.",
   "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
@@ -12,10 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/smarquina37/TSS.git"
   },
-  "author": "Susana",
+  "author": "Susana Marquina",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "bugs": {
+    "url": "https://github.com/smarquina37/TSS/issues"
   },
   "homepage": "https://github.com/smarquina37/TSS#readme"
 }
