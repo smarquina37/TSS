@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Staatliches', cursive;
 }
 
 h2 {
@@ -12,6 +12,7 @@ h2 {
 
 header h2 {
     color: #020008;
+    text-align: center;
 }
 
 footer {
@@ -35,3 +36,6 @@ footer {
 .navbar {
     color: black;
 }
+.carousel-inner > .carousel-item > img {
+    height: 500px;
+  }
